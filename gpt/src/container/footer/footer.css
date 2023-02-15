@@ -1,0 +1,121 @@
+.gpt_footer{
+    display: flex;
+    background: #031B34;
+    flex-direction: column;
+}
+.gpt_heading{
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+.gpt_heading h1{
+    max-width: 821px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 75px;
+/* or 121% */
+text-align: center;
+letter-spacing: -0.04em;
+}
+.gpt_heading button{
+    border: 1px solid #FFFFFF;
+    font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 9rem ;
+margin-top: 3rem;
+color: #FFFFFF;
+width: 20%;
+padding: 1rem 0rem;
+background: #031B34;
+}
+.gpt_footer_end{
+    display: flex;
+    flex-direction: row;
+}
+.gpt_footer_logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.gpt_footer_logo img{
+    width: 118px;
+    height: 30px;
+}
+.gpt_footer_logo p{
+    font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+margin-top: 1.5rem;
+color: #FFFFFF;
+max-width:168px;;
+}
+.gpt_footer_links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+}
+.gpt_footer_links h4{
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 16px;
+    
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    margin-bottom: 1rem;    
+}
+.gpt_footer_links p{
+    
+font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+margin-bottom: 1rem;
+
+}
+.gpt_footer_copyright {
+    width: 100%;
+    display: flex;
+justify-content: center;
+   position: relative;
+   
+}
+.gpt_footer_copyright p{
+    font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+align-self: center;
+font-feature-settings: 'liga' off;
+text-align: center;
+color: #FFFFFF;
+}
+@media screen and (max-width:1050px) {
+ .gpt_footer_links{
+    display: flex;
+    margin-left: 9rem;
+ }
+}
+@media screen and (max-width:720px) {
+    .gpt_footer_links{
+       display: flex;
+       margin-left: 4rem;
+    }
+   }
+   @media screen and (max-width:550px) {
+   .gpt_footer_end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+    .gpt_footer_links{
+       display: flex;
+       margin-left: 1rem;
+       flex-direction: column;
+    }
+   }   

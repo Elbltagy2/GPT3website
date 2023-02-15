@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+.gpt_blog{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+}
+.gpt_blog h1{
+    max-width: 701px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    margin-bottom: 5rem;
+}
+.gpt_blog_group1{
+display: flex;
+flex: .75;
+align-items: flex-start;
+flex-direction: column;
+
+}
+.gpt_blog_group1 img{
+    width: 100%;
+    height: 40%;
+}
+.gpt_blog_group1 h1{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 25.11px;
+line-height: 30px;
+
+/* or 121% */
+margin-bottom: 8rem;
+margin-left:2rem ;
+max-width:342.18px;;
+max-height: 90.86px;;
+color: #FFFFFF;
+
+}
+.gpt_article{
+    background: #042C54;
+   
+}
+.gpt_blog_group1 div{
+    height: 81%;
+}
+.gpt_blog_group2 div{
+    
+    height: 80%;
+
+    
+}
+.gpt_blog_group1 p{
+    margin-left:2rem ;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 11.649px;
+line-height: 35px;
+
+/* identical to box height, or 300% */
+
+color: #FFFFFF;
+
+
+}
+.gpt_blog_articles{
+    display: flex;
+    flex-direction: row;
+    
+}
+.gpt_blog_group2
+{
+    display: grid;
+    margin-left: 2rem;
+    flex: 1;
+    flex-direction: column;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-gap: 2rem;
+}
+.gpt_blog_group2 img{
+    width: 100%;
+    height: 40%;   
+}
+.gpt_blog_group2 h1{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 19.3154px;
+line-height: 30px;
+margin-left: 2rem;
+
+/* or 157% */
+
+color: #FFFFFF;
+}
+.gpt_blog_group2 p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 11.649px;
+line-height: 35px;
+margin-left: 2rem;
+
+/* identical to box height, or 300% */
+
+color: #FFFFFF;
+
+
+}
+@media screen and (max-width:1050px) {
+    .gpt_blog h1{
+        font-size: 24px;
+        margin-left:2rem ;
+    }
+    .gpt_blog{
+        margin-left: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gpt_blog_group1 h1{
+        font-size: 16px;
+    }
+    .gpt_blog_group2 h1{
+        font-size: 12px;
+        margin-bottom: 2rem;
+    }
+
+    .gpt_blog_articles{
+        flex-direction: column-reverse  ;
+        align-items: center;
+    }
+    .gpt_blog_group1{
+        margin-left:2rem ;
+    }
+    
+}
+@media screen and (max-width:550px){
+    .gpt_blog_group2{
+        display: flex;
+    }
+    .gpt_blog{
+        margin: 0;
+    }
+
+}
