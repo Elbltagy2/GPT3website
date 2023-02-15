@@ -3,7 +3,7 @@ import './brand.css'
 import { google,slack,atls,dropbox,shopify } from './import'
 const Brand = () => {
   return (
-    <div className='gpt_brand section_padding'>
+    <div className='gpt_brand section_padding '>
       <div>
         <img src={google} alt="google"/>
       </div>

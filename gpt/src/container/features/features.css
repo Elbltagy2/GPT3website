@@ -1,0 +1,79 @@
+.gpt_features{
+    display: flex;
+    margin: 0;
+    margin-top: 15rem;
+}
+.gpt_features_content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 5rem;
+}
+.gpt_features_content_comment{
+   margin-right: 5rem ;
+    flex-direction: column;
+    max-width: 426px;
+}
+
+.gpt_features_content_comment h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin-bottom: 3.5rem;
+    /* or 132% */
+    
+}
+.gpt_features_content_comment p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+
+/* identical to box height, or 188% */
+
+color: #FF8A71;
+
+
+}
+.gpt_features_items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 24px;
+/* or 133% */
+letter-spacing: -0.04em;
+color: #FFFFFF;
+
+
+}
+@media screen and (max-width:1050px) {
+    .gpt_features_content{
+        flex-direction: column;
+        margin-left: 6rem;
+        margin-right: 3rem;
+    }
+    .gpt_features{
+        margin-top: 5rem;
+    }
+    .gpt_features_content_comment{
+        max-width: 100%;
+    }
+    .gpt_features_content_comment h1{
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+    .gpt_features_content_comment p{
+        font-size: 12px;
+    }
+    .gpt_features_items {
+        font-size: 10px;
+    }
+    
+}

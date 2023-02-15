@@ -4,7 +4,7 @@ import ai from "../../assets/assets/ai.png";
 import "./header.css";
 const Header = () => {
   return (
-    <div className="gpt_header section__padding" id="home">
+    <div className="gpt_header section__padding " id="home">
       <div className="gpt_header-content">
         <h1 className="gradient__text">
           Let’s Build Something amazing with GPT-3 OpenAI
