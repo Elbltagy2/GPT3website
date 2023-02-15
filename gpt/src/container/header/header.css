@@ -1,0 +1,141 @@
+.gpt_header{
+    display: flex;
+}
+.gpt_header-content{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.gpt_header-content h1{
+    font-family: var(--font-family);
+
+font-weight: 800;
+font-size: 62px;
+line-height: 75px;
+
+/* or 121% */
+letter-spacing: -0.04em;
+}
+.gpt_header-content p{
+    font-family: var(--font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+margin-top: 1rem;
+}
+.gpt_header-content-input{
+width: 100%;
+margin: 2rem 0 1rem;
+display: flex;
+}
+.gpt_header-content-input input{
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    border: 0;
+
+    background: var(--color-footer);
+     border-radius: 5px 0px 0px 5px;
+     font-family: var(--font-family);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        border: 5px 0px 0px 5px;
+        outline: none;
+        padding: 0 1rem;
+        color: #3D6184;
+
+}
+.gpt_header-content-input button{
+flex: 0.6;
+min-height: 50px;
+border: 0;
+background: #FF4820;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+padding: 0 1rem;
+border-bottom-right-radius: 5px;
+border-top-right-radius:5px ;
+outline: none;
+}
+.gpt_header-content-comment{
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+    flex-direction: row;
+
+}
+.gpt_header-content-comment img{
+   
+    width: 181.79px;
+    height: 38px;
+}
+.gpt_header-content-comment p{
+    margin: 0 0 0 1rem;
+    width: 581.92px;
+    height: 37.61px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 38px;
+
+/* identical to box height, or 313% */
+
+color: #FFFFFF;
+}
+.gpt_header-image{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.gpt_header-image img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width :1050px) {
+    .gpt_header{
+        flex-direction: column;
+    }
+    .gpt_header-content{
+        margin: 0 0 3rem;
+    }
+}
+@media screen and (max-width :650px) {
+    .gpt_header h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .gpt_header p{
+font-size: 16px;
+line-height:24px ;
+    }
+    .gpt_header-content{
+        margin: 0 0 3rem;
+    }
+    .gpt_header-content-comment{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gpt_header-content-comment p{
+        margin-left:14rem;
+    }
+    .gpt_header-content-input button,
+    .gpt_header-content-input input{
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
