@@ -11,10 +11,10 @@
 }
 .gpt_header-content h1{
     font-family: var(--font-family);
-
 font-weight: 800;
 font-size: 62px;
 line-height: 75px;
+
 
 /* or 121% */
 letter-spacing: -0.04em;
@@ -26,6 +26,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 27px;
 margin-top: 1rem;
+color: #81AFDD;
 }
 .gpt_header-content-input{
 width: 100%;
