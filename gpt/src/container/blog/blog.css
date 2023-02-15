@@ -52,6 +52,7 @@ color: #FFFFFF;
 }
 .gpt_blog_group1 div{
     height: 81%;
+    width: 100%;
 }
 .gpt_blog_group2 div{
     
@@ -81,7 +82,7 @@ color: #FFFFFF;
 .gpt_blog_group2
 {
     display: grid;
-    margin-left: 2rem;
+    margin-left: 1rem;
     flex: 1;
     flex-direction: column;
     grid-template-columns:repeat(2,1fr) ;
